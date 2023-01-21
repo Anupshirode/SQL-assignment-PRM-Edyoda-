@@ -1,16 +1,16 @@
-mysql> use sql;
+       use sql;
 
 Database changed
 
-mysql> CREATE TABLE COUNTRIES(
+       CREATE TABLE COUNTRIES(
 
-    -> COUNTRY_ID varchar(2),
+       COUNTRY_ID varchar(2),
 
-    -> COUNTRY_NAME varchar(40),
+       COUNTRY_NAME varchar(40),
 
-    -> REGION_ID decimal(10,0)
+       REGION_ID decimal(10,0)
 
-    -> );
+       );
 
 Query OK, 0 rows affected (0.06 sec)
 
